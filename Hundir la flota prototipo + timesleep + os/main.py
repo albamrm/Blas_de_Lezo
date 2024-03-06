@@ -39,8 +39,12 @@ def main():
 
     while True:
         # Turno del jugador humano
+        print("Tus disparos")
+        imprimir_tablero(tablero_maquina.tablero_impactos)
+        print("Disparos del enemigo")
+        imprimir_tablero(tablero_jugador.tablero_impactos)
         print("¡Es tu turno! Atizales:")
-        imprimir_tablero(tablero_maquina.tablero_impactos) # He cambiado el tablero_jugador por tablero_maquina para que podamos ver a donde ya hemos disparado
+        # He hecho unas modificaciones para ver los tableros de disparos de ambos jugadores cada vez que hacemos una jugada y así tener una visual del juego
         x, y = map(int, input("Introduce las coordenadas separadas por comas (x, y). \nRecuerda números entre el 0 y el 9 según muestra el tablero: ").split(","))
         tablero_maquina.disparo_coordenada(x, y)
         
