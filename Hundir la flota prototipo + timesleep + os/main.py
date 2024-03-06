@@ -52,9 +52,10 @@ def main():
         if sum(tablero_jugador.barco_vidas.values()) == 0:
             print("¡Hemos perdido! La Flota enemiga ha ganado.")
             break
-        
+
         # Turno de la máquina
         print("Turno de la Flota enemiga:")
+        time.sleep(3) # Añado un timesleep para hacer como que la máquina piensa
         x, y = generar_coordenadas_aleatorias()
         print(f"La Flota enemiga dispara a las coordenadas {x}, {y}.")
         tablero_jugador.disparo_coordenada(x, y)
