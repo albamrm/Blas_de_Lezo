@@ -2,7 +2,8 @@
 from variables import TAMANO_TABLERO
 import random
 
-'''def imprimir_tablero(tablero, id_jugador):
+'''Esta al final la tuve que pasar a la clase para que fuese fina.
+def imprimir_tablero(tablero, id_jugador):
     print(f"Tablero del {id_jugador}:")
     
     # Encabezado de columnas con valores de los ejes x

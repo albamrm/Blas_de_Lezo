@@ -8,10 +8,10 @@ from funciones import generar_coordenadas_aleatorias
 
 def main():
     print("¡Saludos, marinero intrépido! \nSoy Blas de Lezo y Olavarrieta, nacido en Pasajes, Guipúzcoa, el 3 de febrero de 1689. \nA lo largo de mi vida, he surcado los mares y enfrentado numerosas batallas, \nquedando marcado por las heridas de guerra que adornan mi figura: \nun ojo tuerto, un brazo inmovilizado y una pierna arrancada. \nA pesar de estas adversidades, he demostrado ser un estratega formidable, \nsiendo considerado uno de los mejores almirantes de la historia de la Armada Española.")
-    #time.sleep(6)
+    time.sleep(6)
     
     print("\nHoy necesito tu ayuda, \nte invito a participar en una emocionante batalla naval, \ndonde la astucia y la estrategia serán nuestras mejores armas. \nAntes de adentrarnos en esta aventura marítima,")
-    #time.sleep(4)
+    time.sleep(4)
     nombre_jugador = input("\n¿Con qué nombre quieres que te recuerde la historia? ")
     
     os.system('cls')  
@@ -20,13 +20,13 @@ def main():
     time.sleep(2)
     
     print("\nEl campo de batalla está listo para la acción. \nAhora, es momento de posicionar nuestros barcos en las aguas revueltas. \nNuestras fuerzas y las del enemigo son parejas. \nCada bando cuenta con: \n4 barcos de 1 posición de eslora \n3 barcos de 2 posiciones de eslora \n2 barcos de 3 posiciones de eslora \n1 barco de 4 posiciones de eslora")
-    #time.sleep(5)
+    time.sleep(5)
     
     print("\nConfía en mi criterio para colocar los barcos. \nTu responsabilidad es hundir la flota enemiga, \nasí que céntrate en dirigir los disparos de nuestra artillería")
-    #time.sleep(5)
+    time.sleep(5)
 
     print(f"\nATENTO, {nombre_jugador}: En un mar embrabecido ~~~ veras \nlos disparos fallidos como O, \nlos aciertos como X y \nlos barcos hundidos como H.")
-    #time.sleep(5)
+    time.sleep(5)
     
     os.system('cls')  
 
@@ -40,7 +40,7 @@ def main():
     tablero_jugador.imprimir_tablero_con_barcos()
     tablero_maquina.imprimir_tablero_con_barcos()
     
-    time.sleep(5)
+    time.sleep(8)
     #os.system('cls')
 
     while True:
