@@ -1,8 +1,8 @@
 ## **HUNDIR LA FLOTA AMBIENTADO EN BLAS DE LEZO**
 > **Grupo 4**, conformado por: Alba María Romero, Fernando Manzano, Pedro Pérez y Pepe Reina.
 >> Decidimos ambientar nuestro juego en [Blas de lezo](https://es.wikipedia.org/wiki/Blas_de_Lezo). Para ello, el juego inicia con una pequeña presentación del personaje, en la que Blas pide que introduzcas tu nombre.  
-<img src="./imagenes/Don_Blas_de_Lezo.jpg" width="250">  
-<sub>IMAGEN DE LA ENTRADA EN WIKIPEDIA .</sub>            
+<img src="./imagenes/Don_Blas_de_Lezo.jpg" width="250">    
+>>>IMAGEN DE LA ENTRADA EN WIKIPEDIA.       
 >**El mensaje de presentación es el siguiente:**     
 >>¡Saludos, marinero intrépido!   
 Soy Blas de Lezo y Olavarrieta, nacido en Pasajes, Guipúzcoa, el 3 de febrero de 1689. 
