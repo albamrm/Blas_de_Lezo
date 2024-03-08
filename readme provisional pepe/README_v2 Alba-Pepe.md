@@ -6,7 +6,7 @@
 >    
 >**El mensaje de presentación es el siguiente:**     
 >>¡Saludos, marinero intrépido!   
-Soy Blas de Lezo y Olavarrieta, nacido en Pasajes, Guipúzcoa, el 3 de febrero de 1689. 
+>>Soy Blas de Lezo y Olavarrieta, nacido en Pasajes, Guipúzcoa, el 3 de febrero de 1689. 
 A lo largo de mi vida, he surcado los mares y enfrentado numerosas batallas, 
 quedando marcado por las heridas de guerra que adornan mi figura: 
 un ojo tuerto, un brazo inmovilizado y una pierna arrancada. 
